@@ -1,0 +1,193 @@
+01.04 7:14 PM
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends Club Cricket Team | FCC Official</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        .heading-font { font-family: 'Bebas Neue', cursive; }
+        .hero-bg {
+            background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), 
+                        url('https://images.unsplash.com/photo-1531415074968-036ba1b575da?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .player-card:hover { transform: translateY(-10px); }
+        .fb-color { background-color: #1877F2; }
+        .slogan-glow {
+            text-shadow: 0 0 15px rgba(234, 179, 8, 0.5);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Navigation -->
+    <nav class="bg-black text-white p-4 sticky top-0 z-50 shadow-2xl border-b border-yellow-500/30">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <!-- FCC Official Logo -->
+                <img src="1000035808.jpg" alt="FCC Logo" class="w-12 h-12 rounded-full border-2 border-yellow-500 object-cover" onerror="this.src='https://ui-avatars.com/api/?name=FCC&background=EAB308&color=000'">
+                <div class="flex flex-col leading-tight">
+                    <h1 class="text-xl md:text-2xl heading-font tracking-widest text-yellow-500">Friends Club Cricket Team</h1>
+                    <span class="text-xs font-bold tracking-[0.3em] text-gray-400">FCC • U17 DIVISION</span>
+                </div>
+            </div>
+            <ul class="hidden lg:flex space-x-6 font-semibold uppercase text-[12px] tracking-wider">
+                <li><a href="#home" class="hover:text-yellow-500 transition">Home</a></li>
+                <li><a href="#about" class="hover:text-yellow-500 transition">About</a></li>
+                <li><a href="#players" class="hover:text-yellow-500 transition">Squad</a></li>
+                <li><a href="#contact" class="hover:text-yellow-500 transition">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg h-screen flex items-center justify-center text-center text-white px-4">
+        <div class="max-w-4xl">
+            <div class="inline-block mb-4">
+                <span class="bg-yellow-500 text-black px-4 py-1 font-black uppercase tracking-widest text-sm rounded-sm">Official U17 Squad</span>
+            </div>
+            <h2 class="text-6xl md:text-9xl heading-font leading-none mb-2">FRIENDS CLUB</h2>
+            <h3 class="text-3xl md:text-5xl heading-font text-yellow-500 mb-6 tracking-widest">CRICKET TEAM (FCC)</h3>
+            
+            <!-- Team Slogan -->
+            <div class="mb-10">
+                <p class="text-2xl md:text-4xl italic font-light tracking-widest slogan-glow uppercase">
+                    "Win <span class="text-yellow-500 font-bold">or</span> Learn"
+                </p>
+            </div>
+
+            <div class="mt-8 flex flex-wrap gap-4 justify-center">
+                <a href="#players" class="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-4 px-10 rounded shadow-xl transition duration-300 uppercase tracking-widest text-sm">Meet The Team</a>
+                <a href="https://www.facebook.com/share/1HEADUfeGp/" target="_blank" class="fb-color hover:bg-blue-700 text-white font-bold py-4 px-10 rounded shadow-xl transition duration-300 uppercase tracking-widest text-sm flex items-center gap-2">
+                    Official FB Page
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Highlights -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="order-2 md:order-1">
+                    <h3 class="text-4xl heading-font mb-6 text-gray-800 border-l-8 border-yellow-500 pl-4">Our Vision</h3>
+                    <p class="text-gray-600 leading-relaxed text-lg mb-6">
+                        Friends Club Cricket Team (FCC) is more than just a club; it's a family of young enthusiasts. In the U17 division, we focus on developing both skill and character. Our slogan <strong class="text-black">"Win or Learn"</strong> defines our mindset—there is no losing, only growing.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="p-6 bg-gray-50 rounded-xl shadow-inner text-center">
+                            <h4 class="font-bold text-3xl text-yellow-600 heading-font">U17</h4>
+                            <p class="text-[10px] uppercase font-bold text-gray-400 tracking-widest">Age Category</p>
+                        </div>
+                        <div class="p-6 bg-gray-50 rounded-xl shadow-inner text-center">
+                            <h4 class="font-bold text-3xl text-yellow-600 heading-font">11+</h4>
+                            <p class="text-[10px] uppercase font-bold text-gray-400 tracking-widest">Active Players</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative flex justify-center order-1 md:order-2">
+                    <img src="1000035807.jpg" class="rounded-2xl shadow-2xl max-w-full h-auto border-8 border-white" alt="FCC Group Photo" onerror="this.src='https://images.unsplash.com/photo-1540747913346-19e3ad643121?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Players Section -->
+    <section id="players" class="py-20 bg-gray-900 text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl heading-font text-yellow-500">The Power 11 Squad</h2>
+                <p class="text-gray-400 mt-2 uppercase tracking-[0.4em] text-xs">Future Champions</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                <!-- Player Card Generator -->
+                <script>
+                    const players = [
+                        "Arafat Rahman", "Abdur Rahman Munna", "Abu Hamza Himel", 
+                        "Abul Hossain Pretom", "Jiban Ahmed", "Yasin Ahmed", 
+                        "Sajjadur Mahim", "Hridoy Islam", "Habibur Rahman", 
+                        "Musfiqur Hadi", "Ali Hasan"
+                    ];
+
+                    players.forEach((player, index) => {
+                        document.write(`
+                            <div class="player-card bg-gray-800 rounded-xl overflow-hidden transition-all duration-500 border border-gray-700 hover:border-yellow-500 group">
+                                <div class="h-40 bg-gray-700 flex items-center justify-center text-5xl grayscale group-hover:grayscale-0 transition duration-500">
+                                    
+                                </div>
+                                <div class="p-5">
+                                    <div class="flex justify-between items-start mb-2">
+                                        <span class="text-yellow-500 font-bold text-xs uppercase tracking-tighter">FCC U17</span>
+                                        <span class="text-gray-600 font-black">#${index + 1}</span>
+                                    </div>
+                                    <h4 class="text-xl font-bold group-hover:text-yellow-500 transition">${player}</h4>
+                                    <p class="text-gray-500 text-xs mt-1 uppercase tracking-widest">Squad Member</p>
+                                </div>
+                            </div>
+                        `);
+                    });
+                </script>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Social -->
+    <section id="contact" class="py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-5xl mx-auto bg-black rounded-3xl overflow-hidden shadow-2xl flex flex-col md:flex-row">
+                <div class="md:w-1/2 p-12 text-white">
+                    <h2 class="text-4xl heading-font mb-6 text-yellow-500">Get In Touch</h2>
+                    <p class="text-gray-400 mb-8 font-light">Whether you're looking for a match or want to support our young stars, we're just a call away.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center text-yellow-500"></div>
+                            <div>
+                                <p class="text-[10px] uppercase text-gray-500">Direct Contact</p>
+                                <p class="font-bold text-lg">+8801966379933</p>
+                                <p class="font-bold text-lg">+880 1327-948458</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 fb-color rounded-full flex items-center justify-center text-white">FB</div>
+                            <div>
+                                <p class="text-[10px] uppercase text-gray-500">Social Media</p>
+                                <a href="https://www.facebook.com/share/1HEADUfeGp/" target="_blank" class="font-bold text-lg hover:text-yellow-500 transition underline underline-offset-4">Friends Club FCC</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 bg-yellow-500 p-12 flex items-center justify-center text-center">
+                    <div>
+                        <h3 class="text-4xl heading-font text-black mb-4 tracking-tighter">"Win or Learn"</h3>
+                        <p class="text-black/70 font-bold uppercase tracking-widest text-xs mb-6">Embrace the journey of cricket</p>
+                        <img src="1000035808.jpg" alt="FCC Logo" class="w-32 h-32 mx-auto rounded-full border-4 border-black shadow-xl mb-4" onerror="this.style.display='none'">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-gray-600 py-12 text-center border-t border-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="heading-font text-2xl text-gray-400 tracking-[0.5em] mb-4">FRIENDS CLUB CRICKET TEAM</h2>
+            <div class="flex justify-center space-x-4 mb-6 opacity-50">
+                <span class="w-8 h-px bg-gray-700 self-center"></span>
+                <p class="text-[10px] uppercase tracking-[0.3em] font-bold italic">Win or Learn</p>
+                <span class="w-8 h-px bg-gray-700 self-center"></span>
+            </div>
+            <p class="text-[10px] uppercase tracking-widest">&copy; 2024 FCC OFFICIAL SITE. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
